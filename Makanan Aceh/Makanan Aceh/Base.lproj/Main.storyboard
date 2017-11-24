@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wh0-0n-aOG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baskerville.ttc">
+            <string>Baskerville-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Aceh Table View Controller-->
+        <scene sceneID="npf-SF-53Q">
+            <objects>
+                <tableViewController id="U7e-Ag-8M7" customClass="AcehTableViewController" customModule="Makanan_Aceh" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IFb-Wp-ttt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="0qJ-ww-oBo">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <items>
+                                <navigationItem title="List Makanan" id="MRN-yf-CHw"/>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="180" id="aqQ-Uy-zyf" customClass="AcehTableViewCell" customModule="Makanan_Aceh" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="180"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aqQ-Uy-zyf" id="J2V-mb-Xbq">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cug-Qp-X75">
+                                            <rect key="frame" x="16" y="4" width="327" height="27"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="27" id="pLc-xd-ejx"/>
+                                                <constraint firstAttribute="width" constant="327" id="pXG-3m-rCh"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1w5-48-jXi">
+                                            <rect key="frame" x="16" y="50" width="327" height="21.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="327" id="7Dd-jn-DVE"/>
+                                                <constraint firstAttribute="height" constant="21.5" id="xvt-q8-FLa"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bv3-aw-cpo">
+                                            <rect key="frame" x="16" y="97" width="327" height="21.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="327" id="Otm-oD-c9U"/>
+                                                <constraint firstAttribute="height" constant="21.5" id="WqD-mQ-4Te"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEw-I9-tDJ">
+                                            <rect key="frame" x="16" y="142" width="327" height="21.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="327" id="INJ-re-kOj"/>
+                                                <constraint firstAttribute="height" constant="21.5" id="P4t-1p-Mbc"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="1w5-48-jXi" firstAttribute="top" secondItem="cug-Qp-X75" secondAttribute="bottom" constant="19" id="1Ve-rL-W7k"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="wEw-I9-tDJ" secondAttribute="trailing" constant="16" id="3nZ-1x-l1j"/>
+                                        <constraint firstItem="wEw-I9-tDJ" firstAttribute="leading" secondItem="J2V-mb-Xbq" secondAttribute="leadingMargin" id="4wj-Ft-3Xv"/>
+                                        <constraint firstItem="cug-Qp-X75" firstAttribute="leading" secondItem="J2V-mb-Xbq" secondAttribute="leading" constant="16" id="8iN-dQ-LCV"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="wEw-I9-tDJ" secondAttribute="bottom" constant="5.5" id="8jG-KV-7fs"/>
+                                        <constraint firstItem="1w5-48-jXi" firstAttribute="leading" secondItem="J2V-mb-Xbq" secondAttribute="leadingMargin" id="EOP-gA-vVQ"/>
+                                        <constraint firstItem="wEw-I9-tDJ" firstAttribute="top" secondItem="bv3-aw-cpo" secondAttribute="bottom" constant="23.5" id="Iqv-tt-00y"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="1w5-48-jXi" secondAttribute="trailing" constant="16" id="NZ7-wE-Kwz"/>
+                                        <constraint firstItem="cug-Qp-X75" firstAttribute="top" secondItem="J2V-mb-Xbq" secondAttribute="top" constant="4" id="R7l-Sg-Bf5"/>
+                                        <constraint firstItem="bv3-aw-cpo" firstAttribute="top" secondItem="1w5-48-jXi" secondAttribute="bottom" constant="25.5" id="Uhr-EX-9fp"/>
+                                        <constraint firstItem="bv3-aw-cpo" firstAttribute="leading" secondItem="J2V-mb-Xbq" secondAttribute="leadingMargin" id="WMh-aM-AGl"/>
+                                        <constraint firstItem="bv3-aw-cpo" firstAttribute="top" secondItem="1w5-48-jXi" secondAttribute="bottom" constant="25.5" id="gSp-oA-rF7"/>
+                                        <constraint firstAttribute="trailing" secondItem="cug-Qp-X75" secondAttribute="trailing" constant="32" id="iii-zr-wKb"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="bv3-aw-cpo" secondAttribute="trailing" constant="16" id="mZa-cr-g2J"/>
+                                        <constraint firstItem="1w5-48-jXi" firstAttribute="top" secondItem="cug-Qp-X75" secondAttribute="bottom" constant="19" id="qod-5B-aL9"/>
+                                        <constraint firstItem="wEw-I9-tDJ" firstAttribute="top" secondItem="bv3-aw-cpo" secondAttribute="bottom" constant="23.5" id="tr5-jF-ccl"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.66467583179473877" green="0.53501200675964355" blue="0.37167507410049438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="labelHarga" destination="bv3-aw-cpo" id="nHP-3a-iVU"/>
+                                    <outlet property="labelNamaResep" destination="cug-Qp-X75" id="hAr-Jf-IVT"/>
+                                    <outlet property="labelPorsi" destination="1w5-48-jXi" id="XuB-z1-Cwh"/>
+                                    <outlet property="labelWaktu" destination="wEw-I9-tDJ" id="ls2-O1-dPX"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="U7e-Ag-8M7" id="wI8-zg-lLM"/>
+                            <outlet property="delegate" destination="U7e-Ag-8M7" id="P8F-S3-Nf3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="BSE-x0-OIF"/>
+                    <connections>
+                        <segue destination="t6a-65-svr" kind="modal" identifier="PassDetail" id="LYe-aO-mnA"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wIG-gj-rjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949.60000000000002" y="344.97751124437787"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="UgQ-RB-vX8">
+            <objects>
+                <viewController id="t6a-65-svr" customClass="DetailViewController" customModule="Makanan_Aceh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1k-Lh-NX0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CED-m7-eES">
+                                <rect key="frame" x="41" y="208" width="278" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">{"result":"true","msg":"Data kategori","data":[{"id_nama":"1","nama":"Bubur Jagung Aceh","orang":"3 porsi","harga":"75 ribu","bahan":"1 buah jagung\r\n4 sdm mutiara\r\n5 sdm gula\r\n65 ml santan (1 bungkus santan kecil)\r\n500 ml air\r\n1,5 sdm maizena\r\n1 lembar daun pandan\r\n1\/4 sdt garam","cara":"Rebus mutiara dalam air mendidih sampai mutiara berubah menjadi bening dan tidak ada warna putih di tengahnya. Tiriskan dan rendam dalam air dingin (agar mutiara tidak menggumpal dan lengket)\r\nPipil jagung, bagi 2. Blender setengah jagung pipil\r\nRebus 500 ml air sampai mendidih\r\nMasukkan mutiara dan jagung pipil rebus kira kira 10 sampai 15 menit sampai jagung dirasa matang\r\nMasukkan jagung yg sudah di blender dan gula (bila kurang manis bisa ditambahkan gula lagi, krn saya buat untuk anak jd dibuat tidak terlalu manis)\r\nMasukkan daun pandan dan garam\r\nCampurkan santan dan maizena sampai maizena larut di wadah tersendiri\r\nMasukkan campuran maizena dan santan ke dalam bubur jagung lalu aduk sampai mengental (bisa disesuaikan kekentalan, jika suka yg kental bisa ditambahkan maizena yg sudah dilarutkan dalam air terlebih dahulu)\r\n\r\nBubur jagung siap dihidangkan","waktu":"30 menit"},{"id_nama":"2","nama":"Sop iga sapi khas aceh","orang":"5 porsi","harga":"50 ribu","bahan":"1 kg tulang iga dan tulang gatok sapi\r\n2 buah Wortel\r\nBunga kol + daun bawang+ daun seledri\r\n2 buah kentang ukuran besar\r\nKapulaga\r\nCengkeh\r\nBunga lawang\r\nKayu manis\r\nBumbu halus\r\n4 siung baput\r\n10 siung bamer\r\n1\/4 ruas Jahe\r\nMrica butir 1 1\/2 sdt\r\n1\/2 sdt jintan\r\nGaram\r\nJeruk nipis + asam jawa\r\n2 sdm Minyak goreng","cara":"Cuci bersih tulang, lumuri garam, jeruk nipis n asam jawa.\r\nRebus tulang (me air rebusan pertama dibuang) kemudian tambahkan air lg. Rebus skitar kurleb 35 menit.\r\nMasukkan wortel, bunga kol, daun bawang, seledri dan kentang yg sudah dipotong potong sesuai selera. Masak lg Sekitar kurleb 10 menit.\r\nPanaskan wajan, masukkan minyak goreng Tumis bumbu kapulaga, cengkeh, bunga lawang n kayu manis hingga harum. Kemudian masukkan bumbu halus tumis sampai harum. Masukkan kedlm rebusan tulang.\r\nKoreksi rasa, masak lg 5 menit. Siap dihidangkan","waktu":"50 menit"},{"id_nama":"3","nama":"Tumeh tirom khas aceh","orang":"3 porsi\r\n","harga":"","bahan":"1\/2 kg Tirom atau tiram sekitar\r\nSantan dari 1\/2 butir kelapa\r\nBumbu halus\r\n5 siung Bamer (1 siung rajang unt tumis)\r\n2 siung baput\r\n1\/4 dr 1\/2 ruas jari jahe\r\n2 buah cabe keriting\r\n3 biji cabe rawit\r\n3 buah Asam sunti\r\n1\/4 ruas kunyit\r\nRajang\r\n1 buah Tomat kecil rajang\r\n3 buah Cabe keriting hijau belah 2\r\nDaun kari\r\nGaram\r\nMinyak secukupny unt tumis","cara":"Cuci bersih tiram kemudian tiriskan.\r\nPanaskan wajan, tuang minyak tumis bawang, bumbu halus. Daun kari n tomat rajang, cabe ijo. Kalo sudah harum masukkan santan n garam\r\nTunggu mendidih, koreksi rasa. Terakhir baru masukkan tiram, kalo santan sudah matang.\r\nTips, memasak tiram jangan terlalu lama, kalo terlalu lama menciut kecil. Gag enak lg.\r\nSiap dihidangkan.","waktu":"60 menit"},{"id_nama":"4","nama":"Simba Asam Pade","orang":"5-6porsi\r\n","harga":"100 ribu","bahan":"1\/2 kg ikan simba segar\r\n6 bh asam belimbing\r\n1 bungkus cabe giling (saya pakai cabai giling biar lebih medok)\r\n1\/2 bungkus bumbu kuning (bumbu kuning giling siap pakai)\r\n5 bj bawang putih\r\n5 bj bawang merah","cara":"Pertama saya rebus dulu air dan asam belimbing\r\nKedua setelah mendidih, masukan bumbu kuning, cabai giling dan bawang yg sudah dihaluskan\r\nAduk hingga merata, masukan ikan simba yg sudah dicuci bersih\r\nMasukan garam, gula, dan royco (selera) cek rasa\r\nSetelah matang, siap untuk disajikan ? mudah kan ?","waktu":"80 menit"},{"id_nama":"5","nama":"Cumi tumis masak aceh","orang":"2 porsi","harga":"75 ribu","bahan":"1\/2 kg cumi-cumi segar\r\n10 buah cabe merah kriting\r\n8 buah cabe rawit\r\n9 buah asam sunti\/belimbing wuluh yg sudah dikeringkan\r\n4 biji bawang merah\r\n4 siung bawang putih\r\n1\/2 cm jahe\r\n1\/4 sdt kunyit bubuk\r\n3 tangkai daun teumurui\/daun kari\r\nGaram\r\nMinyak untuk menumis\r\n1 buah kentang (potong memanjang)","cara":"Bersihkan cumi-cuminya, yg berukuran besar\/panjang bisa dipotong jd 2, (soalnya aq gak syuka klo panjang2 cuminya), setelah bersih lumuri garam secukupnya.\r\nHaluskan bahan-bahan tadi (cabe merah, cabe rawit, asam sunti, jahe, bawang merah, bawang putih) sampai halus.\r\nPanaskan wajan, tambahkan minyak, tumis bawang merah yg sudah dicincang, setelah harum dan berwarna kecoklatan, masukkan cumi-cumi beserta bahan yang sudah dihaluskan tadi, ditambah kunyit bubuk.\r\nTunggu sampai mendidih, tambahkan sedikit air, kentang, dan daun teumurui.\r\nTunggu lagi sampai mendidih, dan cek rasa.\r\nKalo cumi dan kentangnya udah empuk, rasanya jg udah pas, matikan api, dan cumi tumisnya udah bisa disantap.\r\nMakan sama nasi panas, ditambah kerupuk kulit, eeemmm yaaaamiiii...\r\nSelamat mencoba ??","waktu":"45 menit"},{"id_nama":"6","nama":"Mie Aceh","orang":"3 porsi","harga":"40 ribu","bahan":"1 bungkus mie pasta\r\n3 ons udang\r\n1 butir telur\r\n2 genggam toge\r\n1\/4 bh kol\r\n2 batang daun bawang\r\n15 bh cabe\r\n8 bh bawang merah\r\n5 bh bawang putih\r\n1 ruas kunyit\r\n4 bh kemiri\r\n1 sdm ketumbar\r\n1\/2 sdm merica butir\r\n1 sdm jinten\r\n3 sdm saos tiram\r\n5 sdm kecap manis\r\n1 sdm kecap asin\r\n1 sdm garam\r\n1\/2 sdm kaldu bubuk\r\n1 gelas air putih","cara":"Cuci bersih semua bahan,iris daun bawang &amp; kol.udangnya kulitnya di buang saja\r\n\r\nBumbu yang dihaluskan bawang merah,bawang putih,kunyit,kemiri,merica,ketumbar,jinten &amp; cabe\r\n\r\nRebus air hingga mendidih setelah mendidih masukkan mie pasta biar kan hingga mateng 10 mnt setelah itu angkat&amp; tiriskan\r\n\r\nTumis semua bumbu yang sudah di haluskan msk hingga mateng &amp; harum\r\n\r\nSetelah itu masukkan udang aduk2 lalu masukkan telur aduk2 hingga mateng\r\n\r\nSetelah itu masukkan toge,kol dan daun bawang beri air putih ungkep.lalu masukkan garam,saos tiram,kecap manis,kecap asin,kaldu bubuk\r\n\r\nKoreksi rasa lalu masukkan mie pasta aduk2 hingga rata dan siap di sajikan ?","waktu":"120 menit"},{"id_nama":"7","nama":"Ayam Asam Keueng (Khas Aceh)","orang":"3 orang","harga":"80 ribu","bahan":"Bahan Halus:\r\n3 siung bawang merah\r\n3 siung bawang putih\r\n2 cm kunyit\r\n2 cm jahe\r\n1\/2 sdt biji ketumbar\r\n5 bh cabe merah\r\n5 bh cabe rawit (bs dtambah kalau mau pedas)\r\nBahan Lainnya:\r\n1 ekor ayam kampung\r\n4 btg daun temurui\/daun kari\r\n3 btg sereh (geprek)\r\n3 sdm penuh kelapa gonseng\r\n5 siung bawang merah (iris)\r\n7 bh jeruk nipis\/purut\r\n1 sdt penuh ketumbar bubuk yg sdh dimasak\r\n1\/2 sdt kunyit bubuk\r\n2 1\/2 sdt cabe kering bubuk\r\nSecukupnya air\r\nSecukupnya garam","cara":"Cuci bersih ayam kampung, masukkan dalam wajan yg akan dgunakan utk memasak. -tambahkan perasan jeruk nipis, irisan bawang, daun temurui\/kari dan kelapa gonseng. Aduk aduk hingga meresap. Diamkan selama 30 menit. Sisihkan\r\nHaluskan bumbu halus. -masukkan kedalam wajan yg berisi ayam tadi, aduk aduk lagi. Pijit pijit ayamnya agak bumbu halusnya meresap.\r\nMasukkan ketumbar bubuk, kunyit bubuk, cabe kering bubuk, dan batang sereh. -Panaskan diatas kompor dan tambahkan secukupnya air.\r\nJika air mulai mengering, maka tambahkan lagi sampai ayamnya empuk.-lalu tambahkan garam, koreksi rasa &amp; sajikan??\r\nPS:-ayam kampung bs dganti dg ayam merah, cmn rebusnya lebih lama krn lama empuknya kalo ayam merah. -wajan yg dipake kalo bs wajan dr tanah liat (belanga) krn dpt memengaruhi rasa, bikin lebih enak ??\r\n","waktu":"180 menit"},{"id_nama":"8","nama":"Gulai ayam masak puteh (gulai putih aceh)","orang":"2 porsi","harga":"75 ribu","bahan":"1\/2 ekor ayam (kukus 30 menit biar daging lebih empuk)\r\nBumbu halus:\r\n8 butir bawang merah\r\n6 butir bawang putih\r\n3 butir kemiri\r\n1 sdt merica\r\n1 sdt ketumbar\r\n1 ruas ibu jari jahe\r\nBumbu pelengkap :\r\n5 butir kapulaga\r\n5 butir kembang lawang\r\n5 butir cengkeh\r\n1 ruas ibu jari kayu manis\r\n1 batang serai (geprek)\r\n2 helai daun salam\r\n5 butir bawang merah (iris tipis)\r\n1 buah cabe merah (iris tipis)\r\n2 sdm santan bubuk\r\nAir matang secukup nya\r\nGaram secukup nya\r\n1 sdm minyak goreng","cara":"Tumis irisan bawang merah bersama cabe merah sampai harum, masukkan bumbu halus bersama kapulaga, kembang lawang, cengkeh, kayu manis, serai dan daun salam. Tumis hingga harum tambahkan air matang dan santan bubuk lalu ayam sampai ayam sedikit terendam.\r\nTunggu hingga air agak sedikit surut tambahkan garam. Masak hingga air berkurang dan bumbu mengental, koreksi rasa. Sajikan bersama nasi hangat. ?","waktu":"180 menit"},{"id_nama":"9","nama":"Roti Jala","orang":"4 porsi","harga":"50 ribu","bahan":"200 gr tepung terigu\r\n1 butir telur\r\n2 sdm gula\r\n1\/2 sdt garam\r\n350 ml susu cair\/air\r\n1 sdm air jeruk nipis (buat hilangkan amis)\r\nmargarin secukupnya untuk olesan\r\nTopping :\r\nSKM coklat, keju parut,","cara":"Campur semua bahan kecuali susu cair.\r\nMasukkan susu cair sedikit demi sedikit,sampai semua bahan larut, saring agar tidak bergerindil\r\nMasukkan dalam botol yg tutupnya sdh dilubangi, panaskan wajan anti lengket yg sdh diolesi sedikit margarin.\r\nCetak melingkar dan bentuk jaring2, biarkan sedikit kering angkat.\r\nLipat dan gulung seperti membuat dadar gulung. Siap disajikan.\r\nBeri topping sesuai selera. ???","waktu":"90 menit"},{"id_nama":"10","nama":"Gulai kambing aceh","orang":"4 porsi","harga":"60 menit","bahan":"1 kg daging kambing\r\nDaun jeruk, sereh\r\nCengkeh, kapulaga\r\nKayu manis\r\nDaun karapelle (boleh skip)\r\nSantan\r\nBumbu halus :\r\n1 ons cabe merah\r\nBawang putih\r\nBawang merah\r\nKemiri goreng\r\nCabe rawit bagi yg suka pedas\r\nRempah sangrai haluskan dan ayak :\r\nKetumbar\r\nbulat Lada\r\nJintan\r\nPala\r\nBakar di atas bara :\r\nKunyit\r\nJahe\r\nLengkuas","cara":"Potong2 daging kambing sisih kan, boleh di ganti dg daging sapi atw daging ayam menurut selera masing2\r\nSangrai rempah2 bumbu lalu haluskan dg cara di blender atw di tumbuk lalu di ayak sisihkan.\r\nLalu bakar kunyit, jahe, lengkuas klo ga panas potong2 kecil blender dg bumbu2 lainnya sprt cabe merah dkk\r\nLalu tumis bumbu cabe merah smp wangi, lalu masukkan rempah yg sdh di ayak aduk2\r\nMasukkan daging aduk2 n tutup sebentar smp kluar air dr daging n aduk2 kembali smp air asat baru tambahkan air sesuaikan dg kematangan daging n muali empuk masukkan santan lalu tambahkan kaldu bubuk tes rasa bila sdh mantap matikan api\r\nBila suka masakan nya bisa di tambahkan dg daun karapelle atw daun koja\r\nHidangkan gulai kambing aceh dg Roti jala n taburin bawang goreng di atasnya. Sajikan n cukup mengenyangkan dg 4 - 5 lembar roti jala","waktu":"50 menit"}]}</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-3e-ptc">
+                                <rect key="frame" x="32" y="426" width="326" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">{"result":"true","msg":"Data kategori","data":[{"id_nama":"1","nama":"Bubur Jagung Aceh","orang":"3 porsi","harga":"75 ribu","bahan":"1 buah jagung\r\n4 sdm mutiara\r\n5 sdm gula\r\n65 ml santan (1 bungkus santan kecil)\r\n500 ml air\r\n1,5 sdm maizena\r\n1 lembar daun pandan\r\n1\/4 sdt garam","cara":"Rebus mutiara dalam air mendidih sampai mutiara berubah menjadi bening dan tidak ada warna putih di tengahnya. Tiriskan dan rendam dalam air dingin (agar mutiara tidak menggumpal dan lengket)\r\nPipil jagung, bagi 2. Blender setengah jagung pipil\r\nRebus 500 ml air sampai mendidih\r\nMasukkan mutiara dan jagung pipil rebus kira kira 10 sampai 15 menit sampai jagung dirasa matang\r\nMasukkan jagung yg sudah di blender dan gula (bila kurang manis bisa ditambahkan gula lagi, krn saya buat untuk anak jd dibuat tidak terlalu manis)\r\nMasukkan daun pandan dan garam\r\nCampurkan santan dan maizena sampai maizena larut di wadah tersendiri\r\nMasukkan campuran maizena dan santan ke dalam bubur jagung lalu aduk sampai mengental (bisa disesuaikan kekentalan, jika suka yg kental bisa ditambahkan maizena yg sudah dilarutkan dalam air terlebih dahulu)\r\n\r\nBubur jagung siap dihidangkan","waktu":"30 menit"},{"id_nama":"2","nama":"Sop iga sapi khas aceh","orang":"5 porsi","harga":"50 ribu","bahan":"1 kg tulang iga dan tulang gatok sapi\r\n2 buah Wortel\r\nBunga kol + daun bawang+ daun seledri\r\n2 buah kentang ukuran besar\r\nKapulaga\r\nCengkeh\r\nBunga lawang\r\nKayu manis\r\nBumbu halus\r\n4 siung baput\r\n10 siung bamer\r\n1\/4 ruas Jahe\r\nMrica butir 1 1\/2 sdt\r\n1\/2 sdt jintan\r\nGaram\r\nJeruk nipis + asam jawa\r\n2 sdm Minyak goreng","cara":"Cuci bersih tulang, lumuri garam, jeruk nipis n asam jawa.\r\nRebus tulang (me air rebusan pertama dibuang) kemudian tambahkan air lg. Rebus skitar kurleb 35 menit.\r\nMasukkan wortel, bunga kol, daun bawang, seledri dan kentang yg sudah dipotong potong sesuai selera. Masak lg Sekitar kurleb 10 menit.\r\nPanaskan wajan, masukkan minyak goreng Tumis bumbu kapulaga, cengkeh, bunga lawang n kayu manis hingga harum. Kemudian masukkan bumbu halus tumis sampai harum. Masukkan kedlm rebusan tulang.\r\nKoreksi rasa, masak lg 5 menit. Siap dihidangkan","waktu":"50 menit"},{"id_nama":"3","nama":"Tumeh tirom khas aceh","orang":"3 porsi\r\n","harga":"","bahan":"1\/2 kg Tirom atau tiram sekitar\r\nSantan dari 1\/2 butir kelapa\r\nBumbu halus\r\n5 siung Bamer (1 siung rajang unt tumis)\r\n2 siung baput\r\n1\/4 dr 1\/2 ruas jari jahe\r\n2 buah cabe keriting\r\n3 biji cabe rawit\r\n3 buah Asam sunti\r\n1\/4 ruas kunyit\r\nRajang\r\n1 buah Tomat kecil rajang\r\n3 buah Cabe keriting hijau belah 2\r\nDaun kari\r\nGaram\r\nMinyak secukupny unt tumis","cara":"Cuci bersih tiram kemudian tiriskan.\r\nPanaskan wajan, tuang minyak tumis bawang, bumbu halus. Daun kari n tomat rajang, cabe ijo. Kalo sudah harum masukkan santan n garam\r\nTunggu mendidih, koreksi rasa. Terakhir baru masukkan tiram, kalo santan sudah matang.\r\nTips, memasak tiram jangan terlalu lama, kalo terlalu lama menciut kecil. Gag enak lg.\r\nSiap dihidangkan.","waktu":"60 menit"},{"id_nama":"4","nama":"Simba Asam Pade","orang":"5-6porsi\r\n","harga":"100 ribu","bahan":"1\/2 kg ikan simba segar\r\n6 bh asam belimbing\r\n1 bungkus cabe giling (saya pakai cabai giling biar lebih medok)\r\n1\/2 bungkus bumbu kuning (bumbu kuning giling siap pakai)\r\n5 bj bawang putih\r\n5 bj bawang merah","cara":"Pertama saya rebus dulu air dan asam belimbing\r\nKedua setelah mendidih, masukan bumbu kuning, cabai giling dan bawang yg sudah dihaluskan\r\nAduk hingga merata, masukan ikan simba yg sudah dicuci bersih\r\nMasukan garam, gula, dan royco (selera) cek rasa\r\nSetelah matang, siap untuk disajikan ? mudah kan ?","waktu":"80 menit"},{"id_nama":"5","nama":"Cumi tumis masak aceh","orang":"2 porsi","harga":"75 ribu","bahan":"1\/2 kg cumi-cumi segar\r\n10 buah cabe merah kriting\r\n8 buah cabe rawit\r\n9 buah asam sunti\/belimbing wuluh yg sudah dikeringkan\r\n4 biji bawang merah\r\n4 siung bawang putih\r\n1\/2 cm jahe\r\n1\/4 sdt kunyit bubuk\r\n3 tangkai daun teumurui\/daun kari\r\nGaram\r\nMinyak untuk menumis\r\n1 buah kentang (potong memanjang)","cara":"Bersihkan cumi-cuminya, yg berukuran besar\/panjang bisa dipotong jd 2, (soalnya aq gak syuka klo panjang2 cuminya), setelah bersih lumuri garam secukupnya.\r\nHaluskan bahan-bahan tadi (cabe merah, cabe rawit, asam sunti, jahe, bawang merah, bawang putih) sampai halus.\r\nPanaskan wajan, tambahkan minyak, tumis bawang merah yg sudah dicincang, setelah harum dan berwarna kecoklatan, masukkan cumi-cumi beserta bahan yang sudah dihaluskan tadi, ditambah kunyit bubuk.\r\nTunggu sampai mendidih, tambahkan sedikit air, kentang, dan daun teumurui.\r\nTunggu lagi sampai mendidih, dan cek rasa.\r\nKalo cumi dan kentangnya udah empuk, rasanya jg udah pas, matikan api, dan cumi tumisnya udah bisa disantap.\r\nMakan sama nasi panas, ditambah kerupuk kulit, eeemmm yaaaamiiii...\r\nSelamat mencoba ??","waktu":"45 menit"},{"id_nama":"6","nama":"Mie Aceh","orang":"3 porsi","harga":"40 ribu","bahan":"1 bungkus mie pasta\r\n3 ons udang\r\n1 butir telur\r\n2 genggam toge\r\n1\/4 bh kol\r\n2 batang daun bawang\r\n15 bh cabe\r\n8 bh bawang merah\r\n5 bh bawang putih\r\n1 ruas kunyit\r\n4 bh kemiri\r\n1 sdm ketumbar\r\n1\/2 sdm merica butir\r\n1 sdm jinten\r\n3 sdm saos tiram\r\n5 sdm kecap manis\r\n1 sdm kecap asin\r\n1 sdm garam\r\n1\/2 sdm kaldu bubuk\r\n1 gelas air putih","cara":"Cuci bersih semua bahan,iris daun bawang &amp; kol.udangnya kulitnya di buang saja\r\n\r\nBumbu yang dihaluskan bawang merah,bawang putih,kunyit,kemiri,merica,ketumbar,jinten &amp; cabe\r\n\r\nRebus air hingga mendidih setelah mendidih masukkan mie pasta biar kan hingga mateng 10 mnt setelah itu angkat&amp; tiriskan\r\n\r\nTumis semua bumbu yang sudah di haluskan msk hingga mateng &amp; harum\r\n\r\nSetelah itu masukkan udang aduk2 lalu masukkan telur aduk2 hingga mateng\r\n\r\nSetelah itu masukkan toge,kol dan daun bawang beri air putih ungkep.lalu masukkan garam,saos tiram,kecap manis,kecap asin,kaldu bubuk\r\n\r\nKoreksi rasa lalu masukkan mie pasta aduk2 hingga rata dan siap di sajikan ?","waktu":"120 menit"},{"id_nama":"7","nama":"Ayam Asam Keueng (Khas Aceh)","orang":"3 orang","harga":"80 ribu","bahan":"Bahan Halus:\r\n3 siung bawang merah\r\n3 siung bawang putih\r\n2 cm kunyit\r\n2 cm jahe\r\n1\/2 sdt biji ketumbar\r\n5 bh cabe merah\r\n5 bh cabe rawit (bs dtambah kalau mau pedas)\r\nBahan Lainnya:\r\n1 ekor ayam kampung\r\n4 btg daun temurui\/daun kari\r\n3 btg sereh (geprek)\r\n3 sdm penuh kelapa gonseng\r\n5 siung bawang merah (iris)\r\n7 bh jeruk nipis\/purut\r\n1 sdt penuh ketumbar bubuk yg sdh dimasak\r\n1\/2 sdt kunyit bubuk\r\n2 1\/2 sdt cabe kering bubuk\r\nSecukupnya air\r\nSecukupnya garam","cara":"Cuci bersih ayam kampung, masukkan dalam wajan yg akan dgunakan utk memasak. -tambahkan perasan jeruk nipis, irisan bawang, daun temurui\/kari dan kelapa gonseng. Aduk aduk hingga meresap. Diamkan selama 30 menit. Sisihkan\r\nHaluskan bumbu halus. -masukkan kedalam wajan yg berisi ayam tadi, aduk aduk lagi. Pijit pijit ayamnya agak bumbu halusnya meresap.\r\nMasukkan ketumbar bubuk, kunyit bubuk, cabe kering bubuk, dan batang sereh. -Panaskan diatas kompor dan tambahkan secukupnya air.\r\nJika air mulai mengering, maka tambahkan lagi sampai ayamnya empuk.-lalu tambahkan garam, koreksi rasa &amp; sajikan??\r\nPS:-ayam kampung bs dganti dg ayam merah, cmn rebusnya lebih lama krn lama empuknya kalo ayam merah. -wajan yg dipake kalo bs wajan dr tanah liat (belanga) krn dpt memengaruhi rasa, bikin lebih enak ??\r\n","waktu":"180 menit"},{"id_nama":"8","nama":"Gulai ayam masak puteh (gulai putih aceh)","orang":"2 porsi","harga":"75 ribu","bahan":"1\/2 ekor ayam (kukus 30 menit biar daging lebih empuk)\r\nBumbu halus:\r\n8 butir bawang merah\r\n6 butir bawang putih\r\n3 butir kemiri\r\n1 sdt merica\r\n1 sdt ketumbar\r\n1 ruas ibu jari jahe\r\nBumbu pelengkap :\r\n5 butir kapulaga\r\n5 butir kembang lawang\r\n5 butir cengkeh\r\n1 ruas ibu jari kayu manis\r\n1 batang serai (geprek)\r\n2 helai daun salam\r\n5 butir bawang merah (iris tipis)\r\n1 buah cabe merah (iris tipis)\r\n2 sdm santan bubuk\r\nAir matang secukup nya\r\nGaram secukup nya\r\n1 sdm minyak goreng","cara":"Tumis irisan bawang merah bersama cabe merah sampai harum, masukkan bumbu halus bersama kapulaga, kembang lawang, cengkeh, kayu manis, serai dan daun salam. Tumis hingga harum tambahkan air matang dan santan bubuk lalu ayam sampai ayam sedikit terendam.\r\nTunggu hingga air agak sedikit surut tambahkan garam. Masak hingga air berkurang dan bumbu mengental, koreksi rasa. Sajikan bersama nasi hangat. ?","waktu":"180 menit"},{"id_nama":"9","nama":"Roti Jala","orang":"4 porsi","harga":"50 ribu","bahan":"200 gr tepung terigu\r\n1 butir telur\r\n2 sdm gula\r\n1\/2 sdt garam\r\n350 ml susu cair\/air\r\n1 sdm air jeruk nipis (buat hilangkan amis)\r\nmargarin secukupnya untuk olesan\r\nTopping :\r\nSKM coklat, keju parut,","cara":"Campur semua bahan kecuali susu cair.\r\nMasukkan susu cair sedikit demi sedikit,sampai semua bahan larut, saring agar tidak bergerindil\r\nMasukkan dalam botol yg tutupnya sdh dilubangi, panaskan wajan anti lengket yg sdh diolesi sedikit margarin.\r\nCetak melingkar dan bentuk jaring2, biarkan sedikit kering angkat.\r\nLipat dan gulung seperti membuat dadar gulung. Siap disajikan.\r\nBeri topping sesuai selera. ???","waktu":"90 menit"},{"id_nama":"10","nama":"Gulai kambing aceh","orang":"4 porsi","harga":"60 menit","bahan":"1 kg daging kambing\r\nDaun jeruk, sereh\r\nCengkeh, kapulaga\r\nKayu manis\r\nDaun karapelle (boleh skip)\r\nSantan\r\nBumbu halus :\r\n1 ons cabe merah\r\nBawang putih\r\nBawang merah\r\nKemiri goreng\r\nCabe rawit bagi yg suka pedas\r\nRempah sangrai haluskan dan ayak :\r\nKetumbar\r\nbulat Lada\r\nJintan\r\nPala\r\nBakar di atas bara :\r\nKunyit\r\nJahe\r\nLengkuas","cara":"Potong2 daging kambing sisih kan, boleh di ganti dg daging sapi atw daging ayam menurut selera masing2\r\nSangrai rempah2 bumbu lalu haluskan dg cara di blender atw di tumbuk lalu di ayak sisihkan.\r\nLalu bakar kunyit, jahe, lengkuas klo ga panas potong2 kecil blender dg bumbu2 lainnya sprt cabe merah dkk\r\nLalu tumis bumbu cabe merah smp wangi, lalu masukkan rempah yg sdh di ayak aduk2\r\nMasukkan daging aduk2 n tutup sebentar smp kluar air dr daging n aduk2 kembali smp air asat baru tambahkan air sesuaikan dg kematangan daging n muali empuk masukkan santan lalu tambahkan kaldu bubuk tes rasa bila sdh mantap matikan api\r\nBila suka masakan nya bisa di tambahkan dg daun karapelle atw daun koja\r\nHidangkan gulai kambing aceh dg Roti jala n taburin bawang goreng di atasnya. Sajikan n cukup mengenyangkan dg 4 - 5 lembar roti jala","waktu":"50 menit"}]}</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bahan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg7-md-bxW">
+                                <rect key="frame" x="32" y="185" width="69" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDY-LE-eDE">
+                                <rect key="frame" x="32" y="393" width="69" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="porsi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5N-8k-jId">
+                                <rect key="frame" x="32" y="112" width="182" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="waktu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6OG-eH-FTa">
+                                <rect key="frame" x="32" y="149" width="182" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9t-DD-tsu">
+                                <rect key="frame" x="217" y="179" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKO-V1-RCQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Detail Resep" id="aJ4-Qu-n0M">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="aTe-9x-ScL">
+                                            <connections>
+                                                <segue destination="Wh0-0n-aOG" kind="modal" id="m54-do-c25"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpX-68-54i">
+                                <rect key="frame" x="15" y="83" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90483063459396362" green="0.8068663477897644" blue="0.64706134796142578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oYW-zR-CUy"/>
+                    </view>
+                    <connections>
+                        <outlet property="Bahan" destination="CED-m7-eES" id="WfB-1d-RMC"/>
+                        <outlet property="Harga" destination="R9t-DD-tsu" id="Dj5-jR-wB5"/>
+                        <outlet property="NamaResep" destination="RpX-68-54i" id="cUE-mZ-N8Q"/>
+                        <outlet property="Porsi" destination="D5N-8k-jId" id="UvC-ku-xFw"/>
+                        <outlet property="Step" destination="0sv-3e-ptc" id="MMj-Vg-0Lx"/>
+                        <outlet property="Waktu" destination="6OG-eH-FTa" id="olT-mE-2i2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Be-lS-izB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808.8" y="344.97751124437787"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="06O-Dv-fQ4">
+            <objects>
+                <navigationController id="Wh0-0n-aOG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aMf-qV-Slb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="U7e-Ag-8M7" kind="relationship" relationship="rootViewController" id="i4N-Ev-g5g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ox-ba-dlt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2" y="345"/>
+        </scene>
+    </scenes>
+</document>

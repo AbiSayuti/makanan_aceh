@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98495EE22F1D47D6574EED2F /* Pods_Makanan_Aceh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99467759A9A5431CF25D7300 /* Pods_Makanan_Aceh.framework */; };
+		ACD0472B1FC8016D00A6C013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0472A1FC8016D00A6C013 /* AppDelegate.swift */; };
+		ACD0472D1FC8016D00A6C013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0472C1FC8016D00A6C013 /* ViewController.swift */; };
+		ACD047301FC8016D00A6C013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD0472E1FC8016D00A6C013 /* Main.storyboard */; };
+		ACD047321FC8016D00A6C013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD047311FC8016D00A6C013 /* Assets.xcassets */; };
+		ACD047351FC8016D00A6C013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD047331FC8016D00A6C013 /* LaunchScreen.storyboard */; };
+		ACD047401FC8016D00A6C013 /* Makanan_AcehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0473F1FC8016D00A6C013 /* Makanan_AcehTests.swift */; };
+		ACD0474B1FC8016D00A6C013 /* Makanan_AcehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0474A1FC8016D00A6C013 /* Makanan_AcehUITests.swift */; };
+		ACD047591FC803B700A6C013 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD047581FC803B700A6C013 /* DetailViewController.swift */; };
+		ACD0475B1FC803C700A6C013 /* AcehTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0475A1FC803C700A6C013 /* AcehTableViewController.swift */; };
+		ACD0475D1FC803D800A6C013 /* AcehTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0475C1FC803D800A6C013 /* AcehTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD0473C1FC8016D00A6C013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD0471F1FC8016D00A6C013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD047261FC8016D00A6C013;
+			remoteInfo = "Makanan Aceh";
+		};
+		ACD047471FC8016D00A6C013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD0471F1FC8016D00A6C013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD047261FC8016D00A6C013;
+			remoteInfo = "Makanan Aceh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2297746445F6A92DB24DC809 /* Pods-Makanan Aceh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makanan Aceh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makanan Aceh/Pods-Makanan Aceh.release.xcconfig"; sourceTree = "<group>"; };
+		4DDB0FAAF61176C99C766101 /* Pods_Makanan_AcehTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makanan_AcehTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656581776AAB9A43D0EA3634 /* Pods_Makanan_AcehUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makanan_AcehUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93092A526F0E1CE42A7E80EF /* Pods-Makanan Aceh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makanan Aceh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makanan Aceh/Pods-Makanan Aceh.debug.xcconfig"; sourceTree = "<group>"; };
+		99467759A9A5431CF25D7300 /* Pods_Makanan_Aceh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makanan_Aceh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD047271FC8016D00A6C013 /* Makanan Aceh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makanan Aceh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD0472A1FC8016D00A6C013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD0472C1FC8016D00A6C013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD0472F1FC8016D00A6C013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD047311FC8016D00A6C013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD047341FC8016D00A6C013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD047361FC8016D00A6C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD0473B1FC8016D00A6C013 /* Makanan AcehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Makanan AcehTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD0473F1FC8016D00A6C013 /* Makanan_AcehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makanan_AcehTests.swift; sourceTree = "<group>"; };
+		ACD047411FC8016D00A6C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD047461FC8016D00A6C013 /* Makanan AcehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Makanan AcehUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD0474A1FC8016D00A6C013 /* Makanan_AcehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makanan_AcehUITests.swift; sourceTree = "<group>"; };
+		ACD0474C1FC8016D00A6C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD047581FC803B700A6C013 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ACD0475A1FC803C700A6C013 /* AcehTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcehTableViewController.swift; sourceTree = "<group>"; };
+		ACD0475C1FC803D800A6C013 /* AcehTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcehTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD047241FC8016D00A6C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98495EE22F1D47D6574EED2F /* Pods_Makanan_Aceh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047381FC8016D00A6C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047431FC8016D00A6C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD0471E1FC8016D00A6C013 = {
+			isa = PBXGroup;
+			children = (
+				ACD047291FC8016D00A6C013 /* Makanan Aceh */,
+				ACD0473E1FC8016D00A6C013 /* Makanan AcehTests */,
+				ACD047491FC8016D00A6C013 /* Makanan AcehUITests */,
+				ACD047281FC8016D00A6C013 /* Products */,
+				DDD3A7D9478D8871FAB2E842 /* Pods */,
+				D905942B121ED06B98CEAFC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD047281FC8016D00A6C013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD047271FC8016D00A6C013 /* Makanan Aceh.app */,
+				ACD0473B1FC8016D00A6C013 /* Makanan AcehTests.xctest */,
+				ACD047461FC8016D00A6C013 /* Makanan AcehUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD047291FC8016D00A6C013 /* Makanan Aceh */ = {
+			isa = PBXGroup;
+			children = (
+				ACD0472A1FC8016D00A6C013 /* AppDelegate.swift */,
+				ACD0472C1FC8016D00A6C013 /* ViewController.swift */,
+				ACD0472E1FC8016D00A6C013 /* Main.storyboard */,
+				ACD047311FC8016D00A6C013 /* Assets.xcassets */,
+				ACD047331FC8016D00A6C013 /* LaunchScreen.storyboard */,
+				ACD047361FC8016D00A6C013 /* Info.plist */,
+				ACD047581FC803B700A6C013 /* DetailViewController.swift */,
+				ACD0475A1FC803C700A6C013 /* AcehTableViewController.swift */,
+				ACD0475C1FC803D800A6C013 /* AcehTableViewCell.swift */,
+			);
+			path = "Makanan Aceh";
+			sourceTree = "<group>";
+		};
+		ACD0473E1FC8016D00A6C013 /* Makanan AcehTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD0473F1FC8016D00A6C013 /* Makanan_AcehTests.swift */,
+				ACD047411FC8016D00A6C013 /* Info.plist */,
+			);
+			path = "Makanan AcehTests";
+			sourceTree = "<group>";
+		};
+		ACD047491FC8016D00A6C013 /* Makanan AcehUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD0474A1FC8016D00A6C013 /* Makanan_AcehUITests.swift */,
+				ACD0474C1FC8016D00A6C013 /* Info.plist */,
+			);
+			path = "Makanan AcehUITests";
+			sourceTree = "<group>";
+		};
+		D905942B121ED06B98CEAFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99467759A9A5431CF25D7300 /* Pods_Makanan_Aceh.framework */,
+				4DDB0FAAF61176C99C766101 /* Pods_Makanan_AcehTests.framework */,
+				656581776AAB9A43D0EA3634 /* Pods_Makanan_AcehUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDD3A7D9478D8871FAB2E842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93092A526F0E1CE42A7E80EF /* Pods-Makanan Aceh.debug.xcconfig */,
+				2297746445F6A92DB24DC809 /* Pods-Makanan Aceh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD047261FC8016D00A6C013 /* Makanan Aceh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD0474F1FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan Aceh" */;
+			buildPhases = (
+				19B7E42D8CC535936FC4131A /* [CP] Check Pods Manifest.lock */,
+				ACD047231FC8016D00A6C013 /* Sources */,
+				ACD047241FC8016D00A6C013 /* Frameworks */,
+				ACD047251FC8016D00A6C013 /* Resources */,
+				B737EAC7C72C2FC783171082 /* [CP] Embed Pods Frameworks */,
+				BB513CD5450FD827E2C10C31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Makanan Aceh";
+			productName = "Makanan Aceh";
+			productReference = ACD047271FC8016D00A6C013 /* Makanan Aceh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD0473A1FC8016D00A6C013 /* Makanan AcehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD047521FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan AcehTests" */;
+			buildPhases = (
+				ACD047371FC8016D00A6C013 /* Sources */,
+				ACD047381FC8016D00A6C013 /* Frameworks */,
+				ACD047391FC8016D00A6C013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD0473D1FC8016D00A6C013 /* PBXTargetDependency */,
+			);
+			name = "Makanan AcehTests";
+			productName = "Makanan AcehTests";
+			productReference = ACD0473B1FC8016D00A6C013 /* Makanan AcehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD047451FC8016D00A6C013 /* Makanan AcehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD047551FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan AcehUITests" */;
+			buildPhases = (
+				ACD047421FC8016D00A6C013 /* Sources */,
+				ACD047431FC8016D00A6C013 /* Frameworks */,
+				ACD047441FC8016D00A6C013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD047481FC8016D00A6C013 /* PBXTargetDependency */,
+			);
+			name = "Makanan AcehUITests";
+			productName = "Makanan AcehUITests";
+			productReference = ACD047461FC8016D00A6C013 /* Makanan AcehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD0471F1FC8016D00A6C013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					ACD047261FC8016D00A6C013 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACD0473A1FC8016D00A6C013 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD047261FC8016D00A6C013;
+					};
+					ACD047451FC8016D00A6C013 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD047261FC8016D00A6C013;
+					};
+				};
+			};
+			buildConfigurationList = ACD047221FC8016D00A6C013 /* Build configuration list for PBXProject "Makanan Aceh" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD0471E1FC8016D00A6C013;
+			productRefGroup = ACD047281FC8016D00A6C013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD047261FC8016D00A6C013 /* Makanan Aceh */,
+				ACD0473A1FC8016D00A6C013 /* Makanan AcehTests */,
+				ACD047451FC8016D00A6C013 /* Makanan AcehUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD047251FC8016D00A6C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD047351FC8016D00A6C013 /* LaunchScreen.storyboard in Resources */,
+				ACD047321FC8016D00A6C013 /* Assets.xcassets in Resources */,
+				ACD047301FC8016D00A6C013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047391FC8016D00A6C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047441FC8016D00A6C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B7E42D8CC535936FC4131A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Makanan Aceh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B737EAC7C72C2FC783171082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Makanan Aceh/Pods-Makanan Aceh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makanan Aceh/Pods-Makanan Aceh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB513CD5450FD827E2C10C31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makanan Aceh/Pods-Makanan Aceh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD047231FC8016D00A6C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD0475B1FC803C700A6C013 /* AcehTableViewController.swift in Sources */,
+				ACD047591FC803B700A6C013 /* DetailViewController.swift in Sources */,
+				ACD0472D1FC8016D00A6C013 /* ViewController.swift in Sources */,
+				ACD0475D1FC803D800A6C013 /* AcehTableViewCell.swift in Sources */,
+				ACD0472B1FC8016D00A6C013 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047371FC8016D00A6C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD047401FC8016D00A6C013 /* Makanan_AcehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD047421FC8016D00A6C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD0474B1FC8016D00A6C013 /* Makanan_AcehUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD0473D1FC8016D00A6C013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD047261FC8016D00A6C013 /* Makanan Aceh */;
+			targetProxy = ACD0473C1FC8016D00A6C013 /* PBXContainerItemProxy */;
+		};
+		ACD047481FC8016D00A6C013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD047261FC8016D00A6C013 /* Makanan Aceh */;
+			targetProxy = ACD047471FC8016D00A6C013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD0472E1FC8016D00A6C013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD0472F1FC8016D00A6C013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD047331FC8016D00A6C013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD047341FC8016D00A6C013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD0474D1FC8016D00A6C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD0474E1FC8016D00A6C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD047501FC8016D00A6C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93092A526F0E1CE42A7E80EF /* Pods-Makanan Aceh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan Aceh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-Aceh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD047511FC8016D00A6C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2297746445F6A92DB24DC809 /* Pods-Makanan Aceh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan Aceh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-Aceh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACD047531FC8016D00A6C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan AcehTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-AcehTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Makanan Aceh.app/Makanan Aceh";
+			};
+			name = Debug;
+		};
+		ACD047541FC8016D00A6C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan AcehTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-AcehTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Makanan Aceh.app/Makanan Aceh";
+			};
+			name = Release;
+		};
+		ACD047561FC8016D00A6C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan AcehUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-AcehUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Makanan Aceh";
+			};
+			name = Debug;
+		};
+		ACD047571FC8016D00A6C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Makanan AcehUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Makanan-AcehUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Makanan Aceh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD047221FC8016D00A6C013 /* Build configuration list for PBXProject "Makanan Aceh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD0474D1FC8016D00A6C013 /* Debug */,
+				ACD0474E1FC8016D00A6C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD0474F1FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan Aceh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD047501FC8016D00A6C013 /* Debug */,
+				ACD047511FC8016D00A6C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD047521FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan AcehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD047531FC8016D00A6C013 /* Debug */,
+				ACD047541FC8016D00A6C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD047551FC8016D00A6C013 /* Build configuration list for PBXNativeTarget "Makanan AcehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD047561FC8016D00A6C013 /* Debug */,
+				ACD047571FC8016D00A6C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD0471F1FC8016D00A6C013 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Makanan_Aceh {
+  umbrella header "Pods-Makanan Aceh-umbrella.h"
+
+  export *
+  module * { export * }
+}
